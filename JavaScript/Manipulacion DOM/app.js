@@ -13,7 +13,10 @@ for (let i = 3; i < 7; i++) {
 // 2. Agrégales a todos los items la clase error
 
 let $items = document.querySelectorAll('.item')   
-    $items.forEach(item => item.classList.add('error'))
+    //$items.forEach(item => item.classList.add('error'))
+    for (let i = 0; i < $items.length; i++) {
+        $items[i].classList.add('error');
+    }   
 
    
 // 3. Agrégale el texto "2" al círculo
