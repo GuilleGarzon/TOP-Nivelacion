@@ -1,0 +1,12 @@
+.square {
+    background: blue;
+    border: 1px solid black;
+    display: inline-block;    
+    height: 100px;
+    margin: 10px;
+    width: 100px;
+}
+
+.square:nth-child(odd) {
+    background: red;
+}
